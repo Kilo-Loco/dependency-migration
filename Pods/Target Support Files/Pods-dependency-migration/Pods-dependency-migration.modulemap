@@ -1,6 +1,0 @@
-framework module Pods_dependency_migration {
-  umbrella header "Pods-dependency-migration-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F7A8B997300D80960F0121A /* Pods_dependency_migration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB0D990128271CF0855E194 /* Pods_dependency_migration.framework */; };
 		5520F3AC260D5D6900C5F2D0 /* dependency_migrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5520F3AB260D5D6900C5F2D0 /* dependency_migrationApp.swift */; };
 		5520F3B0260D5D6B00C5F2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5520F3AF260D5D6B00C5F2D0 /* Assets.xcassets */; };
 		5520F3B3260D5D6B00C5F2D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5520F3B2260D5D6B00C5F2D0 /* Preview Assets.xcassets */; };
@@ -23,6 +22,13 @@
 		5520F3E6260D6B6800C5F2D0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5520F3E4260D6B6800C5F2D0 /* awsconfiguration.json */; };
 		5520F3E9260D6BBD00C5F2D0 /* aws-amplify-logo-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 5520F3E8260D6BBD00C5F2D0 /* aws-amplify-logo-large.png */; };
 		5520F3EC260D73B300C5F2D0 /* Note+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5520F3EB260D73B300C5F2D0 /* Note+Extensions.swift */; };
+		557BEE4F260D9F4700C153CE /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE4E260D9F4700C153CE /* Amplify */; };
+		557BEE51260D9F4700C153CE /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE50260D9F4700C153CE /* AWSCognitoAuthPlugin */; };
+		557BEE53260D9F4700C153CE /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE52260D9F4700C153CE /* AWSS3StoragePlugin */; };
+		557BEE55260D9F4700C153CE /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE54260D9F4700C153CE /* AWSPluginsCore */; };
+		557BEE57260D9F4700C153CE /* AWSPinpointAnalyticsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE56260D9F4700C153CE /* AWSPinpointAnalyticsPlugin */; };
+		557BEE59260D9F4700C153CE /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE58260D9F4700C153CE /* AWSDataStorePlugin */; };
+		557BEE5B260D9F4700C153CE /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 557BEE5A260D9F4700C153CE /* AWSAPIPlugin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +49,6 @@
 		5520F3E4260D6B6800C5F2D0 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		5520F3E8260D6BBD00C5F2D0 /* aws-amplify-logo-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aws-amplify-logo-large.png"; sourceTree = "<group>"; };
 		5520F3EB260D73B300C5F2D0 /* Note+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+Extensions.swift"; sourceTree = "<group>"; };
-		6E8FCAB43512A65F3C607B2A /* Pods-dependency-migration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dependency-migration.debug.xcconfig"; path = "Target Support Files/Pods-dependency-migration/Pods-dependency-migration.debug.xcconfig"; sourceTree = "<group>"; };
-		8AB0D990128271CF0855E194 /* Pods_dependency_migration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dependency_migration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5CB79C860C5AF9216E603AD /* Pods-dependency-migration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dependency-migration.release.xcconfig"; path = "Target Support Files/Pods-dependency-migration/Pods-dependency-migration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +56,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F7A8B997300D80960F0121A /* Pods_dependency_migration.framework in Frameworks */,
+				557BEE55260D9F4700C153CE /* AWSPluginsCore in Frameworks */,
+				557BEE4F260D9F4700C153CE /* Amplify in Frameworks */,
+				557BEE5B260D9F4700C153CE /* AWSAPIPlugin in Frameworks */,
+				557BEE57260D9F4700C153CE /* AWSPinpointAnalyticsPlugin in Frameworks */,
+				557BEE59260D9F4700C153CE /* AWSDataStorePlugin in Frameworks */,
+				557BEE51260D9F4700C153CE /* AWSCognitoAuthPlugin in Frameworks */,
+				557BEE53260D9F4700C153CE /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +72,6 @@
 		489AE2F31B984805E072216C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8AB0D990128271CF0855E194 /* Pods_dependency_migration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,7 +81,6 @@
 			children = (
 				5520F3AA260D5D6900C5F2D0 /* dependency-migration */,
 				5520F3A9260D5D6900C5F2D0 /* Products */,
-				8F75E853F7C142D0954AEF8E /* Pods */,
 				489AE2F31B984805E072216C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -117,15 +124,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8F75E853F7C142D0954AEF8E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6E8FCAB43512A65F3C607B2A /* Pods-dependency-migration.debug.xcconfig */,
-				D5CB79C860C5AF9216E603AD /* Pods-dependency-migration.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,17 +131,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5520F3B7260D5D6B00C5F2D0 /* Build configuration list for PBXNativeTarget "dependency-migration" */;
 			buildPhases = (
-				C3D2F87DDC9ABE109C60C4D0 /* [CP] Check Pods Manifest.lock */,
 				5520F3A4260D5D6900C5F2D0 /* Sources */,
 				5520F3A5260D5D6900C5F2D0 /* Frameworks */,
 				5520F3A6260D5D6900C5F2D0 /* Resources */,
-				D21EE46B8695DC7F7583A52B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "dependency-migration";
+			packageProductDependencies = (
+				557BEE4E260D9F4700C153CE /* Amplify */,
+				557BEE50260D9F4700C153CE /* AWSCognitoAuthPlugin */,
+				557BEE52260D9F4700C153CE /* AWSS3StoragePlugin */,
+				557BEE54260D9F4700C153CE /* AWSPluginsCore */,
+				557BEE56260D9F4700C153CE /* AWSPinpointAnalyticsPlugin */,
+				557BEE58260D9F4700C153CE /* AWSDataStorePlugin */,
+				557BEE5A260D9F4700C153CE /* AWSAPIPlugin */,
+			);
 			productName = "dependency-migration";
 			productReference = 5520F3A8260D5D6900C5F2D0 /* dependency-migration.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 5520F39F260D5D6900C5F2D0;
+			packageReferences = (
+				557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 5520F3A9260D5D6900C5F2D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,48 +202,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C3D2F87DDC9ABE109C60C4D0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-dependency-migration-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D21EE46B8695DC7F7583A52B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dependency-migration/Pods-dependency-migration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dependency-migration/Pods-dependency-migration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dependency-migration/Pods-dependency-migration-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5520F3A4260D5D6900C5F2D0 /* Sources */ = {
@@ -376,7 +342,6 @@
 		};
 		5520F3B8260D5D6B00C5F2D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E8FCAB43512A65F3C607B2A /* Pods-dependency-migration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,7 +364,6 @@
 		};
 		5520F3B9260D5D6B00C5F2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5CB79C860C5AF9216E603AD /* Pods-dependency-migration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +406,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				branch = testSPM;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		557BEE4E260D9F4700C153CE /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		557BEE50260D9F4700C153CE /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		557BEE52260D9F4700C153CE /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		557BEE54260D9F4700C153CE /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPluginsCore;
+		};
+		557BEE56260D9F4700C153CE /* AWSPinpointAnalyticsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPinpointAnalyticsPlugin;
+		};
+		557BEE58260D9F4700C153CE /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		557BEE5A260D9F4700C153CE /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 557BEE4D260D9F4700C153CE /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5520F3A0260D5D6900C5F2D0 /* Project object */;
 }
