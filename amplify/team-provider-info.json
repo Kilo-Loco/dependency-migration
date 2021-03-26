@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dependencymigration-staging-03755-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-dependencymigration-staging-03755-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-dependencymigration-staging-03755-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-dependencymigration-staging-03755-deployment",
+      "UnauthRoleName": "amplify-dependencymigration-staging-03755-unauthRole",
+      "StackName": "amplify-dependencymigration-staging-03755",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-dependencymigration-staging-03755/81b7dc80-8dcb-11eb-be47-02920e43cb71",
+      "AmplifyAppId": "d3id3xh2kk741o"
+    },
+    "categories": {
+      "auth": {
+        "dependencymigration022f9186": {}
+      }
+    }
+  }
+}

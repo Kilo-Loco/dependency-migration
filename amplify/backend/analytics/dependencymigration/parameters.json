@@ -1,0 +1,21 @@
+{
+    "appName": "dependencymigration",
+    "roleName": "pinpointLambdaRolef28c21a2",
+    "cloudformationPolicyName": "cloudformationPolicyf28c21a2",
+    "cloudWatchPolicyName": "cloudWatchPolicyf28c21a2",
+    "pinpointPolicyName": "pinpointPolicyf28c21a2",
+    "authPolicyName": "pinpoint_amplify_f28c21a2",
+    "unauthPolicyName": "pinpoint_amplify_f28c21a2",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
